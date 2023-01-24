@@ -1,0 +1,60 @@
+.blog-list-wrap {
+    width: 90%;
+    align-self: start;
+    
+    
+    .inner-content {
+        padding: 2em;
+        min-height: 90vh;
+        h1 {
+            margin: 0 0 1em 0;
+        }
+        .edit {
+            margin-right: 10px;
+        }
+
+        table {
+            thead {
+                tr {
+                    background-color: #000;
+                    th {color: #fff; font-size: 1.2em;}
+                }
+            }
+            tbody {
+                tr {
+                    transition: 1s;
+                    td:nth-child(1){ width: 10%}
+                    td:nth-child(2){ width: 30%}
+                    td:nth-child(3){ width: 20%}
+                    td:nth-child(4){ width: 10%}
+                }
+            }
+        }
+        .create-blog {
+            margin-bottom: 1em;
+            margin-left: 10px;
+            &:first-child { margin-right: 10px;}
+        }
+
+        .button-wrap {
+            display: flex;
+            justify-content: end;
+            position: relative;
+
+            h2 {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+        }
+
+        .edit,
+        .delete{
+            cursor: pointer;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+}

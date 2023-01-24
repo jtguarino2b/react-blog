@@ -1,0 +1,26 @@
+body {  
+    background-color: #ececec;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+#root {
+    height: 95vh;
+}
+
+.main-wrapper  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.error {
+    padding: 10px 3px;
+    margin: 0;
+    color: rgb(211, 47, 47);
+}
+
+.success {
+    margin-bottom: 20px;
+}
